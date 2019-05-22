@@ -57,7 +57,7 @@ class BoletoSantander(BoletoData):
             '9',
             self.conta_cedente[-7:],
             self.nosso_numero,
-            self._dv_nosso_numero(),
+            # self._dv_nosso_numero(),
             self.ios,
             self.carteira,
         ])
